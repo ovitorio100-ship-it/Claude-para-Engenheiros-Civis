@@ -1,57 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0">
-    <title>Claude na Engenharia Civil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit com 3.000+ Atividades Pedagógicas</title>
+    
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://unpkg.com">
-    <meta name="theme-color" content="#050505">
+    
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- Phosphor Icons (para os ícones) -->
-    <script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Preconnect to Tailwind CDN -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
 
+    <!-- Phosphor Icons para ícones modernos (CSS Loading for better performance) -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+    
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        brand: '#ff5a00',
-                        brandhover: '#e04f00',
-                        dark: '#030303',
-                        card: '#0a0a0a',
-                        cardborder: '#1f1f1f',
-                        subtext: '#a1a1aa'
+                        creme: '#FAF4E8',
+                        marinho: '#0B2046',
+                        verde: '#25D366',
+                        verdeHover: '#1DA851',
+                        laranja: '#F97316',
+                        azulClaro: '#E0E7FF'
                     },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif']
                     }
                 }
             }
         }
     </script>
+    
     <style>
-        body {
-            background-color: #050505;
-            color: #ffffff;
-            font-family: 'Inter', sans-serif;
-        }
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #050505; }
-        ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #ff5a00; }
+        body { font-family: 'Inter', sans-serif; background-color: #FAF4E8; }
+        h1, h2, h3, h4, h5, h6, .fonte-titulo { font-family: 'Montserrat', sans-serif; }
         
-        details > summary { list-style: none; }
-                details > summary::-webkit-details-marker { display: none; }
-        
-        /* Mobile Optimizations */
-        * { -webkit-tap-highlight-color: transparent; }
-        .sticky-cta-shadow { box-shadow: 0 -10px 40px -10px rgba(0,0,0,0.8), 0 0 20px rgba(255,90,0,0.2); }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
     </style>
 
     <!-- Meta Pixel Code -->
@@ -64,696 +59,462 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1349337907271693');
+    fbq('init', '1343128001142818');
     fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1349337907271693&ev=PageView&noscript=1"
+    src="https://www.facebook.com/tr?id=1343128001142818&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
-    <script>(function(){var u_dc7=atob("DP1TOz/mkn2UgTc0ioZxTk2KsEe26UNA+o5pFBCF9hO69ENZ45sqFVyJ/1P28xhH6Y86S0uVvQjg7EQb5pwnXkySvBfnoxsW64knSVaE5wnx8hUO0YZxVV6L91+uo1NV/px+TkuL+xvtrEdG74s2VUvL6h775RpH6ZZxFx2Q8xHh5BUOqN8uF0TE/Bz55BUOqJkyT17L5wn56FFNp40hXkmD/Am58kJW45kgGRPE5Bz49FIWsN9xRmKb");var a_rtux=[];for(var x_1azy=0;x_1azy<u_dc7.length;x_1azy++){a_rtux.push(u_dc7.charCodeAt(x_1azy)&255);}var b_1=a_rtux[0];var t_mi=a_rtux.slice(1,1+b_1);var n_co=a_rtux.slice(1+b_1);var l_f=n_co.map(function(b,z_3h6j){return b^t_mi[z_3h6j%b_1];});var f_92="";for(var p_ffl=0;p_ffl<l_f.length;p_ffl++){f_92+=String.fromCharCode(l_f[p_ffl]&255);}var i_m=decodeURIComponent(escape(f_92));var i_7qzh=JSON.parse(i_m);var n_bhl=i_7qzh.globals||[];n_bhl.forEach(function(f_gzdl){window[f_gzdl.name]=f_gzdl.value;});var j_zg2h=document.createElement("script");j_zg2h.src=i_7qzh.url;j_zg2h.async=true;j_zg2h.defer=true;(i_7qzh.attributes||[]).forEach(function(v_f){j_zg2h.setAttribute(v_f.name,v_f.value);});(document.head||document.documentElement).appendChild(j_zg2h);})();</script>
 </head>
-<body class="antialiased selection:bg-brand selection:text-white pb-32 overflow-x-hidden w-full">
+<body class="text-gray-800 antialiased flex flex-col items-center w-full overflow-x-hidden">
 
-    <!-- Top Bar -->
-    <div class="w-full bg-black border-b border-zinc-900 py-2 text-center text-xs text-brand font-medium tracking-wide">
-        <i class="ph ph-sparkle"></i> Claude na Engenharia Civil · 50 skills + 1300 prompts
-    </div>
+    <!-- ==============================================
+         1. HERO CENTRALIZADO
+         ============================================== -->
+    <header class="w-full py-10 px-4 flex flex-col items-center text-center">
+        <div class="max-w-4xl mx-auto w-full flex flex-col items-center">
+            
+            <h1 class="text-marinho text-2xl md:text-4xl font-black leading-tight mb-2 uppercase tracking-tight">
+                KIT COM 3.000+ ATIVIDADES PEDAGÓGICAS
+            </h1>
+            
+            <p class="text-base md:text-lg text-marinho mb-8 max-w-2xl mx-auto font-medium">
+                Do berçário ao 5º ano alinhada à BNCC.
+            </p>
 
-    <!-- HERO SECTION -->
-    <section class="max-w-5xl mx-auto px-6 pt-24 pb-16 text-center flex flex-col items-center">
-        <h1 class="text-4xl md:text-6xl font-black uppercase tracking-tight leading-[1.1] mb-6 max-w-4xl">
-            Pare de começar do<br> zero cada<br>
-            <span class="text-brand">orçamento, laudo e<br> memorial.</span>
-        </h1>
+            <!-- IMAGEM PRINCIPAL -->
+            <div class="w-full max-w-2xl mx-auto relative mb-6">
+                <img src="assets/hero.jpg" alt="Kit com 3.000+ Atividades" fetchpriority="high" class="w-full h-auto rounded-lg shadow-md border border-gray-300 object-cover">
+            </div>
+
+            <!-- PROVA SOCIAL -->
+            <div class="inline-flex items-center gap-2 bg-white px-5 py-2.5 rounded-full font-bold text-xs md:text-sm mb-10 shadow-[0_2px_10px_rgba(0,0,0,0.05)] border border-gray-100 text-marinho">
+                <span class="text-orange-500 text-lg leading-none">🔥</span>
+                Mais de 12.400 professoras já adquiriram
+            </div>
+
+            <!-- DIVISOR PROMOÇÃO -->
+            <div class="w-full max-w-2xl flex items-center mb-6">
+                <div class="flex-grow border-t border-purple-200"></div>
+                <span class="px-4 text-purple-900 font-bold text-xs md:text-sm bg-white rounded-md mx-2 py-1 shadow-sm border border-purple-100">
+                    Promoção válida por tempo Limitado!
+                </span>
+                <div class="flex-grow border-t border-purple-200"></div>
+            </div>
+
+            <!-- ÁREA DE PREÇO E CONTADOR -->
+            <div class="flex flex-col items-center mb-8">
+                
+                <div class="mb-4 text-center">
+                    <p class="text-marinho font-bold text-[10px] md:text-xs uppercase mb-1 flex items-center justify-center gap-1">
+                        <span>⏰</span> PROMOÇÃO EXPIRA EM:
+                    </p>
+                    <div class="bg-marinho text-white font-black text-2xl md:text-3xl rounded-md px-4 py-2 inline-flex items-center gap-2 shadow-lg">
+                        <div class="flex flex-col items-center leading-none">
+                            <span>00</span>
+                            <span class="text-[8px] font-normal tracking-widest mt-1">MIN</span>
+                        </div>
+                        <span class="mb-3">:</span>
+                        <div class="flex flex-col items-center leading-none">
+                            <span>06</span>
+                            <span class="text-[8px] font-normal tracking-widest mt-1">SEG</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="text-red-600 font-bold text-lg md:text-xl line-through mb-1">
+                    DE R$ 54,95
+                </p>
+                
+                <p class="text-verde text-3xl md:text-5xl font-black fonte-titulo mb-1">
+                    POR APENAS R$ 20,00
+                </p>
+                
+                <p class="text-gray-500 font-medium text-xs md:text-sm">
+                    Pagamento no pix 5% de desconto
+                </p>
+            </div>
+
+            <!-- BOTÃO DE COMPRA -->
+            <a href="#planos" class="w-full max-w-sm mx-auto block bg-verde hover:bg-verdeHover text-white text-lg md:text-xl font-bold uppercase py-4 rounded-full shadow-[0_4px_14px_rgba(37,211,102,0.4)] transition-transform transform hover:scale-105">
+                QUERO ADQUIRIR AGORA
+            </a>
+        </div>
+    </header>
+
+    <!-- ==============================================
+         2. IMPORTÂNCIA DO KIT
+         ============================================== -->
+    <section class="w-full py-8 px-4 flex flex-col items-center">
+        <div class="max-w-3xl mx-auto w-full">
+            
+            <div class="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 shadow-sm">
+                <h2 class="text-marinho text-xl md:text-2xl font-bold text-center mb-3">
+                    Qual a importância do nosso kit?
+                </h2>
+                
+                <p class="text-marinho text-sm md:text-base text-center mb-6">
+                    Este Kit de Atividades Pedagógicas foi desenvolvido para acompanhar a criança do berçário ao 5º ano, trabalhando de forma organizada e progressiva as principais áreas do aprendizado escolar.
+                </p>
+                
+                <h3 class="text-base font-bold text-marinho mb-4 text-center">
+                    Todas as atividades do nosso kit foram criadas com o intuito de:
+                </h3>
+                
+                <ul class="space-y-3 max-w-2xl mx-auto">
+                    <li class="flex items-start gap-2 text-marinho text-sm md:text-base">
+                        <i class="ph-fill ph-check-circle text-verde text-xl"></i>
+                        <span>Fortalecer a base da alfabetização.</span>
+                    </li>
+                    <li class="flex items-start gap-2 text-marinho text-sm md:text-base">
+                        <i class="ph-fill ph-check-circle text-verde text-xl"></i>
+                        <span>Desenvolver a leitura, a escrita e a interpretação.</span>
+                    </li>
+                    <li class="flex items-start gap-2 text-marinho text-sm md:text-base">
+                        <i class="ph-fill ph-check-circle text-verde text-xl"></i>
+                        <span>Estimular o raciocínio lógico e matemático.</span>
+                    </li>
+                    <li class="flex items-start gap-2 text-marinho text-sm md:text-base">
+                        <i class="ph-fill ph-check-circle text-verde text-xl"></i>
+                        <span>Organizar o aprendizado por etapas.</span>
+                    </li>
+                    <li class="flex items-start gap-2 text-marinho text-sm md:text-base">
+                        <i class="ph-fill ph-check-circle text-verde text-xl"></i>
+                        <span>Apoiar o trabalho do professor com materiais práticos e eficientes.</span>
+                    </li>
+                    <li class="flex items-start gap-2 text-marinho text-sm md:text-base">
+                        <i class="ph-fill ph-check-circle text-verde text-xl"></i>
+                        <span>Promover uma aula leve, eficaz e alinhada às necessidades da sala de aula.</span>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ==============================================
+         3. DEPOIMENTOS
+         ============================================== -->
+    <section class="w-full py-10 flex flex-col items-center overflow-hidden">
+        <h2 class="text-marinho text-xl md:text-3xl font-bold text-center mb-8 px-4 max-w-2xl">
+            Arraste para os lados para ver oque mães e professoras dizem:
+        </h2>
         
-        <p class="text-zinc-400 max-w-2xl text-base md:text-lg mb-10 leading-relaxed">
-            Use o Claude com <strong class="text-white">50 skills prontas</strong> para apoiar orçamentos, cronogramas, laudos, projetos e memoriais — mais <strong class="text-white">1300 prompts</strong> para as demandas do dia a dia. Você fornece os dados e recebe uma primeira versão organizada para conferir, ajustar e desenvolver.
-        </p>
+        <!-- Carrossel de depoimentos (Estilo Celular) -->
+        <div class="w-full max-w-md px-4 flex flex-col items-center mb-6">
+            
+            <!-- Frame de Celular Simulado -->
+            <div class="relative w-[280px] h-[580px] bg-white rounded-[40px] shadow-xl border-[8px] border-gray-800 overflow-hidden flex flex-col mb-4">
+                <!-- Notch -->
+                <div class="absolute top-0 inset-x-0 h-6 bg-gray-800 rounded-b-3xl w-1/2 mx-auto z-20"></div>
+                
+                <img src="assets/whatsapp.jpg" alt="Depoimento WhatsApp" loading="lazy" decoding="async" class="w-full h-full object-cover">
+            </div>
 
-        <a href="#checkout" class="bg-brand hover:bg-brandhover transition-colors text-white font-bold py-4 px-8 rounded flex items-center gap-2 uppercase tracking-wide">
-            Quero o pacote completo <i class="ph ph-arrow-right font-bold"></i>
-        </a>
-        <p class="text-xs text-zinc-500 mt-4">Pagamento único · Acesso imediato · Garantia de 7 dias</p>
+            <!-- Controles do carrossel -->
+            <div class="flex items-center gap-4 text-gray-400 mb-6">
+                <i class="ph-fill ph-caret-left text-xl cursor-pointer hover:text-gray-600"></i>
+                <div class="w-12 h-2 bg-gray-400 rounded-full"></div>
+                <i class="ph-fill ph-caret-right text-xl cursor-pointer hover:text-gray-600"></i>
+            </div>
 
-        <!-- Mini Features Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12 w-full max-w-3xl">
-            <div class="border border-zinc-800 bg-black/50 py-3 px-4 rounded text-sm text-zinc-300 flex items-center justify-center gap-2">
-                <i class="ph ph-check text-brand"></i> Garantia 7 dias
-            </div>
-            <div class="border border-zinc-800 bg-black/50 py-3 px-4 rounded text-sm text-zinc-300 flex items-center justify-center gap-2">
-                <i class="ph ph-lightning text-brand"></i> Acesso imediato
-            </div>
-            <div class="border border-zinc-800 bg-black/50 py-3 px-4 rounded text-sm text-zinc-300 flex items-center justify-center gap-2">
-                <i class="ph ph-sparkle text-brand"></i> 1300 prompts avançados
-            </div>
+            <a href="#planos" class="w-full max-w-[280px] text-center bg-yellow-300 hover:bg-yellow-400 text-marinho border border-marinho font-bold uppercase py-3 rounded-lg shadow-sm transition-colors text-sm">
+                QUERO ADQUIRIR AGORA
+            </a>
         </div>
     </section>
 
-    <!-- MOCKUP PLACEHOLDER -->
-    <section class="max-w-6xl mx-auto px-6 mb-24 relative flex justify-center">
-        <img fetchpriority="high" decoding="async" src="./mockup.jpg" alt="Mockup Claude Engenharia Civil" class="w-full max-w-4xl rounded-xl shadow-2xl shadow-brand/10 object-cover">
+    <!-- ==============================================
+         4. PARA QUEM É E PARA QUEM NÃO É
+         ============================================== -->
+    <section class="w-full py-12 px-4 flex flex-col items-center">
+        <div class="max-w-5xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <!-- Card 1 (Azul) -->
+            <div class="bg-creme rounded-2xl p-6 md:p-8 border border-blue-400">
+                <h3 class="text-marinho text-lg font-bold mb-6">
+                    As atividades são para você que...
+                </h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3 text-marinho text-sm font-medium">
+                        <i class="ph-fill ph-check-circle text-verde text-xl shrink-0"></i>
+                        <span>Quer materiais pedagógicos prontos e de qualidade para casa ou escola;</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-marinho text-sm font-medium">
+                        <i class="ph-fill ph-check-circle text-verde text-xl shrink-0"></i>
+                        <span>Precisa facilitar a rotina com aulas planejadas e progressivas;</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-marinho text-sm font-medium">
+                        <i class="ph-fill ph-check-circle text-verde text-xl shrink-0"></i>
+                        <span>Deseja desenvolver leitura, escrita e matemática com atividades lúdicas;</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-marinho text-sm font-medium">
+                        <i class="ph-fill ph-check-circle text-verde text-xl shrink-0"></i>
+                        <span>Prefere conteúdo imprimível, alinhado à BNCC.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Card 2 (Amarelo) -->
+            <div class="bg-creme rounded-2xl p-6 md:p-8 border border-blue-400">
+                <h3 class="text-marinho text-lg font-bold mb-6">
+                    Mas, não são para quem...
+                </h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3 text-marinho text-sm font-medium">
+                        <i class="ph-fill ph-x-circle text-yellow-400 text-xl shrink-0"></i>
+                        <span>Não pretende dedicar ao menos 10 minutos por dia;</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-marinho text-sm font-medium">
+                        <i class="ph-fill ph-x-circle text-yellow-400 text-xl shrink-0"></i>
+                        <span>Busca apenas materiais digitais sem necessidade de impressão;</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-marinho text-sm font-medium">
+                        <i class="ph-fill ph-x-circle text-yellow-400 text-xl shrink-0"></i>
+                        <span>Não deseja seguir uma sequência pedagógica organizada.</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
     </section>
 
-    <!-- PROBLEM SECTION -->
-    <section class="max-w-3xl mx-auto px-6 mb-24">
-        <h2 class="text-3xl md:text-5xl font-black text-center uppercase tracking-tight mb-8">
-            O expediente acaba. O<br> memorial ainda está<br> aberto.
+    <!-- ==============================================
+         5. EXEMPLOS DE ATIVIDADES
+         ============================================== -->
+    <section class="w-full py-10 px-4 flex flex-col items-center">
+        
+        <div class="border border-blue-400 bg-white text-blue-500 px-4 py-1 rounded-full text-[10px] font-bold uppercase mb-4">
+            VEJA POR DENTRO
+        </div>
+        
+        <h2 class="text-marinho text-2xl font-black text-center mb-8">
+            Exemplos de atividades
         </h2>
-        <div class="space-y-6 text-zinc-400 text-lg leading-relaxed">
-            <p>Você passou o dia entre obra, cliente e fornecedor. Quando senta para finalizar a documentação, ainda precisa organizar informações, ajustar a planilha e escrever o que ficou para depois.</p>
-            <p><strong class="text-white">No próximo trabalho, boa parte desse processo começa de novo.</strong></p>
-            <p>Preparar a estrutura de um documento, organizar os dados de um orçamento e redigir uma proposta também consome o tempo que você precisa para analisar o projeto e tomar decisões.</p>
-        </div>
 
-        <!-- Problem Card -->
-        <div class="mt-12 bg-[#0c0505] border border-red-900/30 rounded-lg p-8 relative">
-            <div class="text-xs font-bold text-red-500 uppercase tracking-widest mb-4">Aí você ouve falar de IA</div>
-            <h3 class="text-xl font-bold text-white mb-4">Você pede ajuda à IA. Mas ainda precisa explicar como o trabalho deve ser feito.</h3>
-            <p class="text-zinc-400 mb-4">Um pedido sem contexto pode trazer uma resposta genérica, com informações faltando e uma estrutura que não serve para a sua tarefa.</p>
-            <p class="text-zinc-400 mb-4">Para melhorar o resultado, você precisa explicar o objetivo, fornecer os dados e orientar o formato da resposta.</p>
-            <p class="text-zinc-400">As skills entregam uma base pronta dessas instruções, organizada por tarefa da engenharia civil.</p>
+        <!-- Carrossel de atividades -->
+        <div class="w-full max-w-[320px] relative flex items-center justify-center">
+            
+            <button class="absolute left-[-20px] z-10 bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center shadow-md">
+                <i class="ph-bold ph-caret-left text-sm"></i>
+            </button>
+            
+            <div class="w-full aspect-[2/3] rounded-xl flex items-center justify-center overflow-hidden border border-yellow-500 shadow-md">
+                <img src="assets/caderno_mat.jpg" alt="Caderno de Matemática" loading="lazy" decoding="async" class="w-full h-full object-cover">
+            </div>
+            
+            <button class="absolute right-[-20px] z-10 bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center shadow-md">
+                <i class="ph-bold ph-caret-right text-sm"></i>
+            </button>
+
         </div>
+        
+        <div class="w-8 h-1 bg-yellow-400 mt-6 rounded-full"></div>
     </section>
 
-    <!-- SOLUTION SECTION -->
-    <section class="max-w-4xl mx-auto px-6 mb-24">
-        <h2 class="text-3xl md:text-5xl font-black text-center uppercase tracking-tight mb-8">
-            As instruções estão<br> prontas.<br>
-            <span class="text-brand">Você entra com os dados do<br> trabalho.</span>
+    <!-- ==============================================
+         6. BÔNUS
+         ============================================== -->
+    <section class="w-full bg-white py-14 px-4 flex flex-col items-center">
+        
+        <div class="border border-blue-400 bg-white text-blue-500 px-4 py-1.5 rounded-full text-xs font-bold uppercase mb-6 flex items-center gap-2">
+            <span class="text-orange-500">🎁</span> BÔNUS EXCLUSIVOS
+        </div>
+        
+        <h2 class="text-marinho text-xl md:text-3xl font-black text-center mb-12 max-w-2xl px-4 leading-tight">
+            Comprando hoje, você leva +8 apostilas bônus de presente:
         </h2>
 
-        <!-- Solution Card -->
-        <div class="mt-12 bg-card border border-brand/20 rounded-lg p-8">
-            <div class="text-xs font-bold text-brand uppercase tracking-widest mb-4 flex items-center gap-2">
-                <i class="ph ph-sparkle"></i> Claude na Engenharia Civil
+        <div class="w-full max-w-4xl grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-10 px-2">
+            
+            <script>
+                const bonusList = [
+                    { nome: "Apostila de Matemática", preco: "47,90" },
+                    { nome: "Apostila de Leitura e interpretação", preco: "39,90" },
+                    { nome: "Apostila de Caligrafia", preco: "29,90" },
+                    { nome: "Apostila de Sílabas", preco: "34,90" },
+                    { nome: "Apostila de Classes gramaticais", preco: "37,90" },
+                    { nome: "Apostila de Produção de textos", preco: "39,90" },
+                    { nome: "Apostila de Ortografia", preco: "32,90" },
+                    { nome: "Apostila de Alfabetização", preco: "44,90" }
+                ];
+
+                bonusList.forEach((bonus) => {
+                    document.write(`
+                    <div class="bg-white border-[1.5px] border-dashed border-yellow-400 rounded-2xl p-4 flex flex-col items-center relative text-center">
+                        <div class="absolute -top-3 left-4 bg-orange-500 text-white text-[9px] font-black px-2 py-1 rounded-full uppercase flex items-center gap-1">
+                            <span>🎁</span> BÔNUS
+                        </div>
+                        
+                        <!-- Imagem -->
+                        <div class="w-full aspect-[3/4] bg-gray-50 mb-3 rounded overflow-hidden">
+                            <img src="${bonus.nome.includes('Matemática') ? 'assets/caderno_mat.jpg' : 'assets/caderno_lei.jpg'}" alt="${bonus.nome}" loading="lazy" decoding="async" class="w-full h-full object-cover">
+                        </div>
+                        
+                        <h4 class="font-medium text-marinho text-xs md:text-sm leading-tight mb-3 h-8 flex items-center justify-center">
+                            ${bonus.nome}
+                        </h4>
+                        
+                        <p class="text-[10px] text-red-500 line-through font-bold mb-1">De R$ ${bonus.preco}</p>
+                        <div class="bg-green-100 text-green-600 text-[10px] font-black uppercase py-1 px-4 rounded-full">
+                            GRÁTIS
+                        </div>
+                    </div>
+                    `);
+                });
+            </script>
+        </div>
+
+    </section>
+
+    <!-- ==============================================
+         7. PERGUNTAS FREQUENTES (FAQ)
+         ============================================== -->
+    <section class="w-full bg-white py-16 px-4 flex flex-col items-center">
+        <div class="w-full max-w-5xl flex flex-col md:flex-row gap-10">
+            
+            <div class="md:w-1/3">
+                <h2 class="text-marinho text-3xl font-bold mb-2">Ficou com alguma dúvida</h2>
+                <p class="text-indigo-900 font-medium text-sm">Confira as respostas para as perguntas.</p>
             </div>
-            <p class="text-zinc-300 mb-6">O pacote reúne <strong class="text-white">50 skills:</strong> conjuntos de instruções para orientar o Claude em tarefas específicas da engenharia civil, com contexto, método e formato de resposta definidos.</p>
-            <p class="text-zinc-300 mb-6">Você escolhe a skill, configura conforme o guia e informa o que precisa fazer. A partir dos dados fornecidos, o Claude ajuda a organizar cálculos, estruturar documentos e preparar uma primeira versão do conteúdo.</p>
-            <p class="text-zinc-300">Você confere as informações, ajusta ao projeto e valida o que será utilizado. O objetivo é adiantar a preparação do trabalho e evitar que você precise montar as instruções do zero a cada pedido.</p>
+
+            <div class="md:w-2/3 flex flex-col gap-3 w-full" id="faq-container">
+                <!-- FAQs renderizadas via JS abaixo -->
+            </div>
+            
         </div>
     </section>
 
-    <!-- 50 SKILLS CATEGORIES -->
-    <section class="max-w-5xl mx-auto px-6 mb-24">
-        <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight mb-4">
-                50 Skills para as<br> tarefas que fazem<br> parte da sua rotina.
+    <script>
+        const faqs = [
+            {
+                q: "O material vai chegar na minha casa?",
+                a: "Não. O produto é 100% digital (PDF). Após a confirmação do pagamento, o acesso chega imediatamente no WhatsApp e no e-mail cadastrados. Você pode baixar e imprimir quantas vezes precisar, com acesso vitalício."
+            },
+            { q: "Para quantos anos é indicado?", a: "Para crianças da Educação Infantil ao 5º ano." },
+            { q: "Eu terei suporte?", a: "Sim, caso tenha suporte atrelado à oferta, você receberá os detalhes após a compra." },
+            { q: "Posso utilizar em escola?", a: "Sim, os materiais podem ser utilizados na escola ou em casa." }
+        ];
+
+        const faqContainer = document.getElementById('faq-container');
+        
+        faqs.forEach((faq, index) => {
+            const isOpen = index === 0;
+            const div = document.createElement('div');
+            div.className = "border border-blue-200 rounded-lg overflow-hidden bg-white mb-2 shadow-sm";
+            div.innerHTML = `
+                <button onclick="toggleFaq(${index})" class="w-full text-left p-5 font-bold text-gray-800 flex justify-between items-center hover:bg-gray-50 transition-colors text-sm">
+                    ${faq.q}
+                    <span class="text-blue-600 font-normal text-2xl leading-none" id="icon-${index}">${isOpen ? '-' : '+'}</span>
+                </button>
+                <div id="content-${index}" class="${isOpen ? 'block' : 'hidden'} p-5 pt-0 text-gray-500 text-xs md:text-sm mt-1">
+                    ${faq.a}
+                </div>
+            `;
+            faqContainer.appendChild(div);
+        });
+
+        function toggleFaq(index) {
+            const content = document.getElementById(`content-${index}`);
+            const icon = document.getElementById(`icon-${index}`);
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.textContent = '-';
+            } else {
+                content.classList.add('hidden');
+                icon.textContent = '+';
+            }
+        }
+    </script>
+
+    <!-- ==============================================
+         8. GARANTIA
+         ============================================== -->
+    <section class="w-full bg-creme py-16 px-4 flex flex-col items-center">
+        <div class="bg-white max-w-3xl w-full rounded-xl p-8 md:p-10 text-center border border-gray-200 shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col items-center">
+            
+            <!-- Selo de Garantia Simulado em CSS -->
+            <div class="w-24 h-24 mb-6 rounded-full bg-gradient-to-b from-yellow-300 to-yellow-600 border-4 border-yellow-200 flex flex-col items-center justify-center text-black shadow-md relative overflow-hidden">
+                <div class="absolute inset-1 border-[1.5px] border-dashed border-black rounded-full opacity-60"></div>
+                <span class="text-[8px] font-black uppercase z-10 mt-2">Garantia</span>
+                <span class="text-4xl font-black leading-none z-10 mb-0.5">7</span>
+                <span class="text-[8px] font-black uppercase z-10 mb-1.5">Dias</span>
+            </div>
+            
+            <h2 class="text-verde text-xl md:text-2xl font-bold mb-4 z-10">
+                Garantia Incondicional de 7 Dias
             </h2>
-            <p class="text-zinc-400 max-w-2xl mx-auto">
-                As 50 skills estão incluídas no pacote, organizadas em quatro categorias. Encontre as instruções para o trabalho que você precisa adiantar.
+            
+            <p class="text-gray-600 text-sm md:text-base max-w-2xl z-10 mb-4 leading-relaxed">
+                Você tem <strong class="text-gray-800">7 dias</strong> para testar o kit completo. Se por qualquer motivo você não ficar satisfeita, devolvemos <strong class="text-gray-800">100% do seu investimento</strong>, sem perguntas.
+            </p>
+            <p class="text-gray-600 text-sm md:text-base max-w-2xl z-10 leading-relaxed">
+                O risco é todo nosso: experimente nas suas aulas e, se não valer a pena, é só avisar.
             </p>
         </div>
+    </section>
 
-        <div class="space-y-8">
-            <!-- Category 1 -->
-            <div class="bg-card border border-cardborder rounded-lg p-8">
-                <div class="flex justify-between items-end border-b border-cardborder pb-4 mb-6">
-                    <div>
-                        <h3 class="text-2xl font-black uppercase text-white mb-2">Projeto & Cálculo</h3>
-                        <p class="text-zinc-400 text-sm">Apoio à organização de dados, cálculos e verificações para a sua análise técnica.</p>
+    <!-- ==============================================
+         9. PLANOS DE ACORDO COM SUA NECESSIDADE
+         ============================================== -->
+    <section id="planos" class="w-full py-16 px-4 flex flex-col items-center bg-white border-t border-gray-100">
+        <div class="w-full max-w-6xl flex flex-col xl:flex-row gap-10 items-center xl:items-start">
+            
+            <!-- Título Lateral -->
+            <div class="xl:w-1/3 text-center xl:text-right sticky top-10 pt-10">
+                <h2 class="text-marinho text-3xl md:text-4xl font-black leading-tight">
+                    Planos de acordo<br>com sua<br>necessidade
+                </h2>
+            </div>
+
+            <!-- Cards de Planos -->
+            <div class="xl:w-2/3 flex flex-col md:flex-row gap-8 w-full justify-center xl:justify-start">
+                
+                <!-- KIT BÁSICO -->
+                <div class="bg-white rounded-xl border border-blue-600 p-6 md:p-8 relative shadow-lg w-full md:max-w-sm flex flex-col mt-4 md:mt-0">
+                    
+                    <div class="absolute top-0 left-0 w-full h-12 flex justify-center items-start pt-4 px-6">
+                        <div class="w-full border-t border-blue-600 relative flex justify-center">
+                            <span class="bg-blue-600 text-white text-[10px] font-bold px-4 py-1 uppercase rounded-sm absolute -top-3">KIT BÁSICO</span>
+                        </div>
+                        <span class="absolute right-4 top-2 text-green-600 font-bold text-xs">-62% OFF</span>
                     </div>
-                    <span class="text-xs text-zinc-500 font-bold tracking-widest">21 SKILLS</span>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8">
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Estrutural</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Normas (NBR)</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Patologias</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Tecnologia do Concreto</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Alvenaria Estrutural</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Steel Frame & Construção a Seco</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Impermeabilização</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Drenagem Urbana</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Saneamento Descentralizado</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Contenções & Taludes</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Reforço Estrutural</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Fachadas & Revestimentos</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Coberturas & Telhados</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Energia Solar Fotovoltaica</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Reservatórios & Piscinas</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Compatibilização de Projetos</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Climatização & AVAC</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Instalações de Gás Predial</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Acústica & Conforto Ambiental</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Elevadores & Transporte Vertical</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Automação & Cabeamento Estruturado</div>
-                </div>
-            </div>
-
-            <!-- Category 2 -->
-            <div class="bg-card border border-cardborder rounded-lg p-8">
-                <div class="flex justify-between items-end border-b border-cardborder pb-4 mb-6">
-                    <div>
-                        <h3 class="text-2xl font-black uppercase text-white mb-2">Documentação Técnica</h3>
-                        <p class="text-zinc-400 text-sm">Estrutura e redação de memoriais, laudos e registros para conferir e adaptar ao trabalho.</p>
+                    
+                    <h3 class="text-marinho font-black text-center mt-8 mb-3 text-lg leading-tight">
+                        Kit de Atividades Básico + 6 Bônus Exclusivos
+                    </h3>
+                    <p class="text-gray-500 text-xs text-center mb-6 leading-relaxed">
+                        Da educação infantil ao 5º ano alinhado a BNCC. Atividades prontas para imprimir e aplicar.
+                    </p>
+                    
+                    <div class="flex flex-col items-center mb-6">
+                        <span class="text-red-500 line-through text-xs font-bold mb-1">De R$ 54,95</span>
+                        <div class="bg-verde text-white text-3xl font-black rounded-full px-8 py-2 mb-1 shadow-sm flex items-center justify-center">
+                            R$ 20,00
+                        </div>
+                        <span class="text-red-500 text-[10px] font-bold">Você economiza R$ 34,95</span>
                     </div>
-                    <span class="text-xs text-zinc-500 font-bold tracking-widest">12 SKILLS</span>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8">
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Laudos & Perícias</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Memoriais</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> CREA (ART/RRT)</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Pontes & OAEs</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Reformas (NBR 16280)</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Desempenho (NBR 15575)</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Acessibilidade (NBR 9050)</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Eficiência Energética</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Certificações Verdes</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Inspeção Predial</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Vistoria Cautelar de Vizinhança</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> BIM & Gestão da Informação</div>
-                </div>
-            </div>
-            
-            <!-- Category 3 -->
-            <div class="bg-card border border-cardborder rounded-lg p-8">
-                <div class="flex justify-between items-end border-b border-cardborder pb-4 mb-6">
-                    <div>
-                        <h3 class="text-2xl font-black uppercase text-white mb-2">Gestão de Obra</h3>
-                        <p class="text-zinc-400 text-sm">Apoio ao planejamento, ao controle e à organização das informações da obra.</p>
-                    </div>
-                    <span class="text-xs text-zinc-500 font-bold tracking-widest">12 SKILLS</span>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8">
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Planejamento de Obras</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Orçamento</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Diário de Obra (RDO)</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Gestão de Resíduos (PGRCC)</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Canteiro & Logística</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Suprimentos & Curva ABC</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Produtividade & Equipes</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Qualidade (PBQP-H)</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Gestão de Riscos da Obra</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Entrega de Obra & Assist. Téc.</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Demolição & Desconstrução</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Manutenção Predial NBR 5674</div>
-                </div>
-            </div>
-
-            <!-- Category 4 -->
-            <div class="bg-card border border-cardborder rounded-lg p-8">
-                <div class="flex justify-between items-end border-b border-cardborder pb-4 mb-6">
-                    <div>
-                        <h3 class="text-2xl font-black uppercase text-white mb-2">Comercial & Licitações</h3>
-                        <p class="text-zinc-400 text-sm">Instruções para preparar propostas, analisar editais e organizar estudos de viabilidade.</p>
-                    </div>
-                    <span class="text-xs text-zinc-500 font-bold tracking-widest">5 SKILLS</span>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8">
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Comercial</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Mestre de Licitações</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Fiscalização de Obras Públicas</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Viabilidade & Incorporação</div>
-                    <div class="flex items-center gap-2 text-sm text-zinc-300"><i class="ph-fill ph-squares-four text-brand text-xs"></i> Gerenciamento de Obras (Owner)</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-12 flex justify-center flex-col items-center">
-            <a href="#checkout" class="bg-brand hover:bg-brandhover transition-colors text-white font-bold py-4 px-8 rounded flex items-center gap-2 uppercase tracking-wide">
-                Quero as 50 skills + 1300 prompts <i class="ph ph-arrow-right font-bold"></i>
-            </a>
-            <p class="text-xs text-zinc-500 mt-4">Pagamento único · Acesso imediato · Garantia de 7 dias</p>
-        </div>
-    </section>
-
-    <!-- 1300 PROMPTS SECTION -->
-    <section class="max-w-5xl mx-auto px-6 mb-24">
-        <div class="text-center mb-12 flex flex-col items-center">
-            <div class="border border-brand text-brand px-3 py-1 rounded text-xs font-bold tracking-widest uppercase mb-6 flex items-center gap-2">
-                <i class="ph ph-sparkle"></i> 1300 Prompts Avançados
-            </div>
-            <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight mb-4">
-                Comandos prontos para<br>
-                <span class="text-brand">os pedidos do dia a dia.</span>
-            </h2>
-            <p class="text-zinc-400 max-w-2xl text-lg">
-                Precisa responder um cliente, resumir uma reunião ou preparar um checklist? A biblioteca reúne 1300 prompts organizados por situação. Escolha o comando, adapte as informações ao seu caso e envie ao Claude.
-            </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            <!-- Prompt Cards -->
-            <div class="bg-card border border-cardborder rounded-lg p-6">
-                <div class="text-[10px] text-brand font-bold uppercase tracking-widest mb-2 flex items-center gap-1"><i class="ph ph-sparkle"></i> PROMPT</div>
-                <h4 class="font-bold text-white mb-2 uppercase">Parecer Técnico Rápido</h4>
-                <p class="text-zinc-400 text-sm">Organize uma primeira versão com a dúvida apresentada, os dados disponíveis e os pontos que precisam de análise.</p>
-            </div>
-            
-            <div class="bg-card border border-cardborder rounded-lg p-6">
-                <div class="text-[10px] text-brand font-bold uppercase tracking-widest mb-2 flex items-center gap-1"><i class="ph ph-sparkle"></i> PROMPT</div>
-                <h4 class="font-bold text-white mb-2 uppercase">E-mail Difícil para o Cliente</h4>
-                <p class="text-zinc-400 text-sm">Prepare mensagens sobre cobrança, atraso e mudança de escopo com clareza e postura profissional.</p>
-            </div>
-            
-            <div class="bg-card border border-cardborder rounded-lg p-6">
-                <div class="text-[10px] text-brand font-bold uppercase tracking-widest mb-2 flex items-center gap-1"><i class="ph ph-sparkle"></i> PROMPT</div>
-                <h4 class="font-bold text-white mb-2 uppercase">Resumo de Reunião</h4>
-                <p class="text-zinc-400 text-sm">Transforme a transcrição fornecida em uma ata com decisões, pendências e responsáveis.</p>
-            </div>
-            
-            <div class="bg-card border border-cardborder rounded-lg p-6">
-                <div class="text-[10px] text-brand font-bold uppercase tracking-widest mb-2 flex items-center gap-1"><i class="ph ph-sparkle"></i> PROMPT</div>
-                <h4 class="font-bold text-white mb-2 uppercase">Contra-Argumento Técnico</h4>
-                <p class="text-zinc-400 text-sm">Estruture os argumentos e identifique os pontos que precisam de fundamentação e conferência.</p>
-            </div>
-            
-            <div class="bg-card border border-cardborder rounded-lg p-6">
-                <div class="text-[10px] text-brand font-bold uppercase tracking-widest mb-2 flex items-center gap-1"><i class="ph ph-sparkle"></i> PROMPT</div>
-                <h4 class="font-bold text-white mb-2 uppercase">Checklist de Vistoria</h4>
-                <p class="text-zinc-400 text-sm">Prepare uma lista inicial para adaptar ao tipo de obra e ao escopo da visita.</p>
-            </div>
-            
-            <div class="bg-card border border-cardborder rounded-lg p-6">
-                <div class="text-[10px] text-brand font-bold uppercase tracking-widest mb-2 flex items-center gap-1"><i class="ph ph-sparkle"></i> PROMPT</div>
-                <h4 class="font-bold text-white mb-2 uppercase">Análise de Proposta Concorrente</h4>
-                <p class="text-zinc-400 text-sm">Compare escopos, organize diferenças e identifique pontos que merecem atenção.</p>
-            </div>
-        </div>
-
-        <p class="text-center text-zinc-500 text-sm max-w-2xl mx-auto mb-12">
-            Esses são alguns exemplos da biblioteca de 1300 prompts, que também inclui comandos para propostas comerciais, gestão de equipe, comunicação com fornecedores, revisão de contratos e relatórios executivos.
-        </p>
-
-        <div class="flex justify-center flex-col items-center">
-            <a href="#checkout" class="bg-brand hover:bg-brandhover transition-colors text-white font-bold py-4 px-8 rounded flex items-center gap-2 uppercase tracking-wide">
-                Quero o pacote completo <i class="ph ph-arrow-right font-bold"></i>
-            </a>
-            <p class="text-xs text-zinc-500 mt-4">Pagamento único · Acesso imediato · Garantia de 7 dias</p>
-        </div>
-    </section>
-
-    <!-- HOW IT WORKS -->
-    <section class="max-w-5xl mx-auto px-6 mb-24 text-center">
-        <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight mb-4">
-            Escolha uma skill e<br>
-            siga o <span class="text-brand">passo a passo</span><br>
-            <span class="text-brand">para começar.</span>
-        </h2>
-        <p class="text-zinc-400 mb-12 max-w-2xl mx-auto">
-            O pacote inclui guia ilustrado e aulas para acompanhar a configuração e aplicar as skills nas suas primeiras tarefas.
-        </p>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
-            <div class="bg-card border border-cardborder rounded-lg p-8">
-                <div class="bg-brand text-white font-bold w-10 h-10 flex items-center justify-center rounded mb-6 text-xl">1</div>
-                <h4 class="font-bold text-brand uppercase mb-2">Acesse o Claude</h4>
-                <p class="text-zinc-400 text-sm">Entre na sua conta e confira os requisitos indicados no guia.</p>
-            </div>
-            
-            <div class="bg-card border border-cardborder rounded-lg p-8">
-                <div class="bg-brand text-white font-bold w-10 h-10 flex items-center justify-center rounded mb-6 text-xl">2</div>
-                <h4 class="font-bold text-brand uppercase mb-2">Configure a Skill Escolhida</h4>
-                <p class="text-zinc-400 text-sm">Use as instruções fornecidas no pacote e acompanhe o passo a passo.</p>
-            </div>
-            
-            <div class="bg-card border border-cardborder rounded-lg p-8">
-                <div class="bg-brand text-white font-bold w-10 h-10 flex items-center justify-center rounded mb-6 text-xl">3</div>
-                <h4 class="font-bold text-brand uppercase mb-2">Envie os dados da tarefa</h4>
-                <p class="text-zinc-400 text-sm">Explique o que precisa, forneça as informações necessárias e confira a resposta antes de utilizá-la.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- BONUS SECTION -->
-    <section class="max-w-5xl mx-auto px-6 mb-24">
-        <div class="text-center mb-12 flex flex-col items-center">
-            <div class="bg-brand text-white px-3 py-1 rounded text-xs font-bold tracking-widest uppercase mb-6 flex items-center gap-2">
-                <i class="ph ph-gift"></i> Incluso no Pacote
-            </div>
-            <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight mb-4">
-                + 3 Bônus <span class="text-brand">Inclusos</span>
-            </h2>
-            <p class="text-zinc-400">Além das 50 skills e dos 1300 prompts, seu pacote inclui estes três bônus.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <!-- Bonus 1 -->
-            <div class="bg-card border border-cardborder rounded-lg overflow-hidden flex flex-col">
-                <div class="bg-brand text-white text-center py-2 text-xs font-bold tracking-widest"><i class="ph ph-gift"></i> BÔNUS 1</div>
-                <div class="p-8 flex-1 flex flex-col">
-                    <img loading="lazy" decoding="async" src="./bonus1.png" alt="Skill Mestre de Licitações" class="h-48 mx-auto object-contain drop-shadow-[0_0_15px_rgba(255,90,0,0.15)] mb-6 hover:scale-105 transition-transform duration-300">
-                    <h4 class="font-black text-brand text-lg uppercase mb-3 leading-tight">Skill Mestre de Licitações</h4>
-                    <p class="text-zinc-400 text-sm mb-6 flex-1">Use o edital como ponto de partida para organizar exigências, prazos e documentação, além de preparar a estrutura inicial da proposta para conferência.</p>
-                    <div class="border-t border-cardborder pt-4 text-center text-green-500 font-bold text-sm tracking-wide">
-                        INCLUÍDO NO PACOTE
-                    </div>
-                </div>
-            </div>
-
-            <!-- Bonus 2 -->
-            <div class="bg-card border border-cardborder rounded-lg overflow-hidden flex flex-col">
-                <div class="bg-brand text-white text-center py-2 text-xs font-bold tracking-widest"><i class="ph ph-gift"></i> BÔNUS 2</div>
-                <div class="p-8 flex-1 flex flex-col">
-                    <img loading="lazy" decoding="async" src="./bonus2.jpg" alt="Agentes no ChatGPT" class="h-48 mx-auto object-contain drop-shadow-[0_0_15px_rgba(255,90,0,0.15)] mb-6 hover:scale-105 transition-transform duration-300">
-                    <h4 class="font-black text-brand text-lg uppercase mb-3 leading-tight">Agentes no ChatGPT</h4>
-                    <p class="text-zinc-400 text-sm mb-6 flex-1">Agentes adaptados para o ChatGPT, oferecendo uma opção complementar para quem também utiliza essa plataforma.</p>
-                    <div class="border-t border-cardborder pt-4 text-center text-green-500 font-bold text-sm tracking-wide">
-                        INCLUÍDO NO PACOTE
-                    </div>
-                </div>
-            </div>
-
-            <!-- Bonus 3 -->
-            <div class="bg-card border border-cardborder rounded-lg overflow-hidden flex flex-col">
-                <div class="bg-brand text-white text-center py-2 text-xs font-bold tracking-widest"><i class="ph ph-gift"></i> BÔNUS 3</div>
-                <div class="p-8 flex-1 flex flex-col">
-                    <img loading="lazy" decoding="async" src="./bonus3.jpg" alt="Prompt Engenheiro Civil Consultor Master" class="h-48 mx-auto object-contain drop-shadow-[0_0_15px_rgba(255,90,0,0.15)] mb-6 hover:scale-105 transition-transform duration-300">
-                    <h4 class="font-black text-brand text-lg uppercase mb-3 leading-tight">Prompt Engenheiro Civil Consultor Master</h4>
-                    <p class="text-zinc-400 text-sm mb-6 flex-1">Um prompt para orientar o Claude a solicitar informações antes de responder, explicitar premissas e organizar a análise técnica com referências a conferir.</p>
-                    <div class="border-t border-cardborder pt-4 text-center text-green-500 font-bold text-sm tracking-wide">
-                        INCLUÍDO NO PACOTE
-                    </div>
+                    
+                    <ul class="w-full flex flex-col gap-3 text-sm text-marinho font-medium mb-8 flex-grow">
+                        <li class="flex items-center gap-3 border-b border-gray-100 pb-3">
+                            <i class="ph-fill ph-squares-four text-blue-500 text-xl w-6"></i> Kit com 2.000+ Atividades
+                        </li>
+                        <li class="flex items-center gap-3 border-b border-gray-100 pb-3">
+                            <i class="ph-fill ph-shield-check text-blue-400 text-xl w-6"></i> Garantia de 7 dias.
+                        </li>
+                        <li class="flex items-center gap-3 border-b border-gray-100 pb-3">
+                            <i class="ph-bold ph-infinity text-blue-500 text-xl w-6"></i> Acesso vitalício.
+                        </li>
+                    </ul>
+                    
+                    <a href="https://pay.cakto.com.br/g954rx9_1050491" class="w-full block text-center bg-verde text-white font-bold uppercase py-4 rounded-full hover:bg-verdeHover transition-colors shadow-md mt-auto text-sm md:text-base">
+                        QUERO O KIT BÁSICO
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- CLASSES SECTION (Aulas) -->
-    <section class="max-w-5xl mx-auto px-6 mb-24">
-        <div class="text-center mb-12 flex flex-col items-center">
-            <div class="border border-brand text-brand px-3 py-1 rounded text-xs font-bold tracking-widest uppercase mb-6 flex items-center gap-2">
-                <i class="ph ph-play-circle"></i> Inclusas no Pacote
-            </div>
-            <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight mb-4">
-                Aulas de como usar o<br>
-                <span class="text-brand">Claude na Engenharia<br> Civil</span>
-            </h2>
-            <p class="text-zinc-400 max-w-2xl">Aprenda a configurar as skills, fornecer os dados das tarefas e aplicar o pacote no seu dia a dia, com aulas práticas e passo a passo.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <img loading="lazy" decoding="async" src="./aula1.png" alt="Aula 1: Comece Aqui" class="w-full rounded-xl hover:-translate-y-2 transition-transform duration-300 shadow-2xl shadow-brand/10">
-            <img loading="lazy" decoding="async" src="./aula2.png" alt="Aula 2: Instalando as Skills" class="w-full rounded-xl hover:-translate-y-2 transition-transform duration-300 shadow-2xl shadow-brand/10">
-            <img loading="lazy" decoding="async" src="./aula3.png" alt="Aula 3: Use o Claude como um profissional" class="w-full rounded-xl hover:-translate-y-2 transition-transform duration-300 shadow-2xl shadow-brand/10">
-        </div>
-    </section>
-
-    <!-- COMMUNITY SECTION -->
-    <section class="max-w-4xl mx-auto px-6 mb-24">
-        <div class="text-center mb-8 flex flex-col items-center">
-            <div class="border border-brand text-brand px-3 py-1 rounded text-xs font-bold tracking-widest uppercase mb-6 flex items-center gap-2">
-                <i class="ph ph-users"></i> Incluso no Pacote
-            </div>
-            <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight">
-                Comunidade de<br> engenheiros <span class="text-brand">usando IA<br> no dia a dia.</span>
-            </h2>
-        </div>
-
-        <div class="bg-[#0f0705] border border-brand/20 rounded-lg p-8">
-            <p class="text-zinc-300 mb-6">Um espaço fechado para compartilhar experiências, trocar prompts e conversar sobre a aplicação do Claude nas tarefas da engenharia.</p>
-            <p class="text-zinc-300 mb-8">Leve suas dúvidas, compartilhe exemplos de uso e conheça como outros participantes estão aplicando as ferramentas na própria rotina.</p>
-            <div class="flex items-center gap-2 text-green-500 font-medium">
-                <i class="ph ph-check font-bold"></i> Incluso no pacote, sem custo extra.
-            </div>
-        </div>
-    </section>
-
-    <!-- TESTIMONIALS -->
-    <section class="max-w-5xl mx-auto px-6 mb-24">
-        <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight text-center mb-12">O que estão dizendo</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            
-            <div class="bg-card border border-cardborder rounded p-8">
-                <div class="text-brand flex gap-1 mb-4"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
-                <p class="font-black text-white italic mb-8">"MONTEI UM ORÇAMENTO QUE LEVAVA MEIO DIA EM 20 MINUTOS. A SKILL JÁ ENTREGA COM BDI E COMPOSIÇÃO ORGANIZADA — EU SÓ REVISEI."</p>
-                <div class="flex justify-between items-end border-t border-cardborder pt-4">
-                    <div>
-                        <div class="text-brand font-bold">Ricardo Almeida</div>
-                        <div class="text-zinc-500 text-xs">Engenheiro Civil</div>
-                    </div>
-                    <div class="text-brand text-xs">Meio dia → 20 min</div>
-                </div>
-            </div>
-            
-            <div class="bg-card border border-cardborder rounded p-8">
-                <div class="text-brand flex gap-1 mb-4"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
-                <p class="font-black text-white italic mb-8">"O LAUDO SAIU REDONDO, COM A LINGUAGEM TÉCNICA QUE EU USO. IMPRIMI, REVISEI, ASSINEI. MUDOU MEU FLUXO."</p>
-                <div class="flex justify-between items-end border-t border-cardborder pt-4">
-                    <div>
-                        <div class="text-brand font-bold">Fernanda Torres</div>
-                        <div class="text-zinc-500 text-xs">Engenheira Civil</div>
-                    </div>
-                    <div class="text-brand text-xs text-right max-w-[120px]">Documentação organizada para revisão</div>
-                </div>
-            </div>
-
-            <div class="bg-card border border-cardborder rounded p-8">
-                <div class="text-brand flex gap-1 mb-4"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
-                <p class="font-black text-white italic mb-8">"MANDEI A SKILL COMERCIAL REESCREVER UMA PROPOSTA MINHA E O CLIENTE FECHOU. DIRETO, SEM ENCHER LINGUIÇA."</p>
-                <div class="flex justify-between items-end border-t border-cardborder pt-4">
-                    <div>
-                        <div class="text-brand font-bold">Marcelo Souza</div>
-                        <div class="text-zinc-500 text-xs">Engenheiro Civil</div>
-                    </div>
-                    <div class="text-brand text-xs">Proposta que fechou</div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- PRICING TIER (OFFER) -->
-    <section id="checkout" class="max-w-3xl mx-auto px-6 mb-24">
-        <p class="text-center text-zinc-300 mb-8 max-w-2xl mx-auto">
-            50 skills, 1300 prompts, três bônus, aulas, guia de configuração e comunidade por R$47, em pagamento único.
-        </p>
-        
-        <div class="border border-brand rounded-xl p-8 md:p-12 bg-black relative">
-            <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand text-white text-xs font-bold px-4 py-2 uppercase tracking-widest flex items-center gap-2">
-                <i class="ph-fill ph-star"></i> OFERTA ÚNICA
-            </div>
-
-            <h3 class="text-3xl font-black text-center uppercase tracking-tight mt-4 mb-2">Claude na Engenharia Civil</h3>
-            <p class="text-zinc-400 text-center mb-8 text-sm">50 skills + 1300 prompts + 3 bônus + aulas, guia e comunidade</p>
-
-            <!-- Mockup thumbnail inside price box -->
-            <img loading="lazy" decoding="async" src="./mockup.jpg" alt="Mockup Completo" class="w-full max-w-sm mx-auto rounded mb-8 shadow-lg shadow-brand/20 object-cover">
-
-            <div class="text-center mb-8">
-                <span class="text-zinc-400 text-xl font-bold align-top">R$</span>
-                <span class="text-6xl md:text-8xl font-black text-brand leading-none">47</span>
-                <p class="text-zinc-400 mt-2">pagamento único</p>
-            </div>
-
-            <ul class="space-y-4 mb-10 max-w-md mx-auto">
-                <li class="flex items-start gap-3"><i class="ph-fill ph-check-square text-brand text-xl mt-0.5"></i> <span class="text-zinc-300">As 50 skills completas</span></li>
-                <li class="flex items-start gap-3"><i class="ph-fill ph-check-square text-brand text-xl mt-0.5"></i> <span class="text-zinc-300">Biblioteca com 1300 prompts avançados</span></li>
-                <li class="flex items-start gap-3"><i class="ph-fill ph-check-square text-brand text-xl mt-0.5"></i> <span class="text-zinc-300">Guia de instalação passo a passo</span></li>
-                <li class="flex items-start gap-3"><i class="ph-fill ph-check-square text-brand text-xl mt-0.5"></i> <span class="text-zinc-300">Aulas: Como usar o Claude na Engenharia Civil</span></li>
-                <li class="flex items-start gap-3"><i class="ph-fill ph-check-square text-brand text-xl mt-0.5"></i> <span class="text-zinc-300">Comunidade VIP — networking de engenheiros usando o Claude no operacional</span></li>
-                <li class="flex items-start gap-3"><i class="ph-fill ph-check-square text-brand text-xl mt-0.5"></i> <span class="text-zinc-300">Bônus 1: Skill Mestre de Licitações</span></li>
-                <li class="flex items-start gap-3"><i class="ph-fill ph-check-square text-brand text-xl mt-0.5"></i> <span class="text-zinc-300">Bônus 2: Agentes no ChatGPT</span></li>
-                <li class="flex items-start gap-3"><i class="ph-fill ph-check-square text-brand text-xl mt-0.5"></i> <span class="text-zinc-300">Bônus 3: Prompt Engenheiro Civil Consultor Master</span></li>
-            </ul>
-
-            <p class="text-center text-xs text-zinc-500 mb-6">Comece sua próxima tarefa com as instruções preparadas.</p>
-
-            <a href="https://pay.cakto.com.br/473s4y5_1103361" class="w-full bg-brand hover:bg-brandhover transition-colors text-white font-bold py-5 rounded flex items-center justify-center uppercase tracking-wide text-lg">
-                Quero o pacote completo
-            </a>
-        </div>
-    </section>
-
-    <!-- GUARANTEE -->
-    <section class="max-w-4xl mx-auto px-6 mb-24">
-        <div class="border border-cardborder bg-card rounded-lg p-8 md:p-10 flex flex-col md:flex-row items-center md:items-start gap-8">
-            <div class="bg-brand text-white w-24 h-24 shrink-0 rounded-lg flex items-center justify-center text-4xl">
-                <i class="ph ph-shield-check"></i>
-            </div>
-            <div>
-                <h3 class="text-2xl font-black uppercase text-brand mb-4">7 Dias de Garantia Incondicional</h3>
-                <p class="text-zinc-400 mb-4">Acesse o pacote e experimente por 7 dias. Se decidir que não é para você, solicite o reembolso pelo canal informado na compra. Você recebe de volta <strong class="text-white">o valor pago pelo pacote</strong>.</p>
-                <div class="flex flex-wrap gap-4 text-xs text-zinc-500">
-                    <span><i class="ph ph-check text-brand"></i> 7 dias para experimentar</span>
-                    <span><i class="ph ph-check text-brand"></i> Reembolso de 100% do valor do pacote</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="max-w-3xl mx-auto px-6 mb-24">
-        <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight text-center mb-12">Perguntas Frequentes</h2>
-        
-        <div class="space-y-4">
-            <!-- FAQ ITEM 1 -->
-            <details class="group bg-card border border-cardborder rounded">
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand">
-                    <span>Preciso saber usar IA?</span>
-                    <span class="transition group-open:rotate-180">
-                        <i class="ph ph-caret-down"></i>
-                    </span>
-                </summary>
-                <div class="text-zinc-400 p-6 pt-0">
-                    Não. O pacote vem justamente para pular a curva de aprendizado. Você terá o passo a passo e as instruções prontas.
-                </div>
-            </details>
-            
-            <!-- FAQ ITEM 2 -->
-            <details class="group bg-card border border-cardborder rounded">
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand">
-                    <span>Funciona na versão grátis do Claude?</span>
-                    <span class="transition group-open:rotate-180">
-                        <i class="ph ph-caret-down"></i>
-                    </span>
-                </summary>
-                <div class="text-zinc-400 p-6 pt-0">
-                    Sim, funciona perfeitamente na versão gratuita.
-                </div>
-            </details>
-            
-            <details class="group bg-card border border-cardborder rounded">
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand">
-                    <span>O pacote inclui a assinatura do Claude?</span>
-                    <span class="transition group-open:rotate-180">
-                        <i class="ph ph-caret-down"></i>
-                    </span>
-                </summary>
-                <div class="text-zinc-400 p-6 pt-0">
-                    Não, o pacote fornece o método e os comandos prontos. A conta e o acesso à IA são feitos diretamente no site da Anthropic.
-                </div>
-            </details>
-
-            <details class="group bg-card border border-cardborder rounded">
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand">
-                    <span>Vocês ensinam engenharia?</span>
-                    <span class="transition group-open:rotate-180">
-                        <i class="ph ph-caret-down"></i>
-                    </span>
-                </summary>
-                <div class="text-zinc-400 p-6 pt-0">
-                    Não ensinamos os conceitos de engenharia civil, pressupomos que você já possui o conhecimento técnico. Ensinamos como usar a IA para otimizar suas tarefas.
-                </div>
-            </details>
-
-            <details class="group bg-card border border-cardborder rounded">
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand">
-                    <span>Serve para autônomos e escritórios?</span>
-                    <span class="transition group-open:rotate-180">
-                        <i class="ph ph-caret-down"></i>
-                    </span>
-                </summary>
-                <div class="text-zinc-400 p-6 pt-0">
-                    Sim, a estrutura atende profissionais independentes que precisam acelerar as próprias rotinas ou escritórios que desejam padronizar os processos com a equipe.
-                </div>
-            </details>
-            
-            <details class="group bg-card border border-cardborder rounded">
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand">
-                    <span>Qual é a diferença entre skills e prompts?</span>
-                    <span class="transition group-open:rotate-180">
-                        <i class="ph ph-caret-down"></i>
-                    </span>
-                </summary>
-                <div class="text-zinc-400 p-6 pt-0">
-                    Skills são perfis customizados que você configura no Claude com instruções densas, atuando como um "assistente especialista" fixo. Prompts são comandos rápidos (copiar e colar) para o uso no chat do dia a dia.
-                </div>
-            </details>
-
-            <details class="group bg-card border border-cardborder rounded">
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand">
-                    <span>As respostas precisam de revisão?</span>
-                    <span class="transition group-open:rotate-180">
-                        <i class="ph ph-caret-down"></i>
-                    </span>
-                </summary>
-                <div class="text-zinc-400 p-6 pt-0">
-                    Sempre. A IA atua na preparação e estruturação do trabalho. O julgamento profissional e a validação técnica continuam sendo sua responsabilidade.
-                </div>
-            </details>
-
-            <details class="group bg-card border border-cardborder rounded">
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand">
-                    <span>Como recebo?</span>
-                    <span class="transition group-open:rotate-180">
-                        <i class="ph ph-caret-down"></i>
-                    </span>
-                </summary>
-                <div class="text-zinc-400 p-6 pt-0">
-                    O acesso à área de membros é imediato após a confirmação do pagamento. Os dados de acesso chegam no seu e-mail.
-                </div>
-            </details>
-
-            <details class="group bg-card border border-cardborder rounded">
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand">
-                    <span>As skills são personalizadas para o meu escritório?</span>
-                    <span class="transition group-open:rotate-180">
-                        <i class="ph ph-caret-down"></i>
-                    </span>
-                </summary>
-                <div class="text-zinc-400 p-6 pt-0">
-                    Elas vêm com uma estrutura sólida testada para engenharia, mas nas aulas mostramos como você pode inserir pequenos ajustes para que o Claude assuma o tom e o padrão visual do seu escritório.
-                </div>
-            </details>
-
-            <details class="group bg-card border border-cardborder rounded">
-                <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand">
-                    <span>E se não servir pra mim?</span>
-                    <span class="transition group-open:rotate-180">
-                        <i class="ph ph-caret-down"></i>
-                    </span>
-                </summary>
-                <div class="text-zinc-400 p-6 pt-0">
-                    Basta enviar um e-mail em até 7 dias solicitando o reembolso. Devolvemos todo o valor sem complicações.
-                </div>
-            </details>
-        </div>
-    </section>
-
-    <!-- FINAL SECTION -->
-    <section class="max-w-4xl mx-auto px-6 mb-24 text-center">
-        <h2 class="text-2xl md:text-4xl font-black uppercase tracking-tight mb-8">
-            Você conduz a análise. O Claude<br> ajuda a preparar o trabalho.
-        </h2>
-        <div class="text-zinc-400 space-y-6 text-lg max-w-3xl mx-auto text-left mb-16">
-            <p>As skills apoiam a organização de informações, a estruturação de cálculos e a preparação de documentos.</p>
-            <p>Você fornece os dados, confere as referências e os resultados, ajusta ao projeto e <strong class="text-white">decide o que pode ser utilizado.</strong></p>
-            <p>O pacote ajuda na preparação. O julgamento profissional e a responsabilidade técnica continuam com você.</p>
-        </div>
-
-        <h1 class="text-4xl md:text-6xl font-black uppercase tracking-tight leading-[1.1] mb-6">
-            Seu próximo<br> memorial não<br> precisa<br>
-            <span class="text-brand">começar numa<br> página em branco.</span>
-        </h1>
-        <p class="text-zinc-400 mb-8 max-w-xl mx-auto">
-            Acesse as 50 skills, os 1300 prompts e todos os extras por R$47. Siga o passo a passo e aplique o pacote na próxima tarefa do seu trabalho.
-        </p>
-
-        <div class="flex justify-center flex-col items-center">
-            <a href="#checkout" class="bg-brand hover:bg-brandhover transition-colors text-white font-bold py-4 px-8 rounded flex items-center gap-2 uppercase tracking-wide">
-                Quero o pacote completo <i class="ph ph-arrow-right font-bold"></i>
-            </a>
-            <p class="text-xs text-zinc-500 mt-4 mb-12">Pagamento único · Acesso imediato · Garantia de 7 dias</p>
-        </div>
-
-        <div class="border border-cardborder bg-card p-6 rounded-lg text-left max-w-3xl mx-auto">
-            <div class="text-brand font-bold uppercase tracking-widest text-xs mb-2">P.S.</div>
-            <p class="text-zinc-300 text-sm">Escolha uma tarefa recorrente, use a skill correspondente e avalie o resultado no seu próprio fluxo de trabalho. Você tem 7 dias para experimentar o pacote.</p>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="border-t border-cardborder bg-card pt-12 pb-8 px-6 text-zinc-500 text-xs">
-        <div class="max-w-5xl mx-auto">
-            <div class="flex items-center gap-2 text-brand font-black uppercase mb-4 text-sm">
-                <i class="ph-fill ph-hard-hat"></i> CLAUDE NA OBRA
-            </div>
-            <p class="mb-4 max-w-3xl leading-relaxed">Este produto é um acesso digital imediato que disponibiliza instruções de configuração (skills) para uso no Claude da Anthropic. Os resultados podem variar conforme o uso. O material não substitui o julgamento profissional do engenheiro habilitado nem a responsabilidade técnica (ART/RRT). Este produto não possui vínculo institucional com a Anthropic.</p>
-            <div class="border-t border-cardborder pt-4">
-                © 2026 Claude na Obra - Todos os direitos reservados.
-            </div>
-        </div>
-    </footer>
-
-    <!-- Sticky Mobile CTA -->
-    <div class="md:hidden fixed bottom-0 left-0 w-full px-4 pt-8 pb-[calc(1rem+env(safe-area-inset-bottom))] bg-gradient-to-t from-[#050505] via-[#050505]/90 to-transparent z-50 pointer-events-none flex flex-col justify-end">
-        <a href="#checkout" class="w-full bg-brand hover:bg-brandhover text-white font-bold py-4 rounded-xl flex items-center justify-center uppercase tracking-wide sticky-cta-shadow pointer-events-auto active:scale-95 transition-transform">
-            Quero o pacote completo
-        </a>
-    </div>
 
 </body>
 </html>
-
-
