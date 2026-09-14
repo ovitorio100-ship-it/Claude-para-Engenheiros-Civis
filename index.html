@@ -368,7 +368,7 @@
         <h1 class="title-main">TRANSFORMA TU CUERPO EN APENAS 28 DIAS Y CON APENAS <span class="highlight-pink">8 MINUTOS POR DÍA</span></h1>
         
         <div style="width: 100%; border-radius: 12px; margin-bottom: 20px; text-align: center; overflow: hidden;">
-            <img src="img1.webp" alt="Activar esta zona" style="width: 100%; display: block;">
+            <img src="img1.webp" alt="Activar esta zona" style="max-height: 250px; width: auto; max-width: 100%; display: block; margin: 0 auto;">
         </div>
         
         <p>¡Sin necesidad de gimnasio ni rellenos!</p>
@@ -389,8 +389,8 @@
         <p class="highlight-pink" style="font-weight: bold; text-transform:uppercase; font-size:12px;">Especialista en glúteos femeninos</p>
         
         <div class="age-grid" style="margin-bottom:20px;">
-            <img loading="lazy" src="img2.webp" alt="Coach y Alumna" style="width:100%; border-radius:12px;">
-            <img loading="lazy" src="img3.webp" alt="Coach Luca" style="width:100%; border-radius:12px;">
+            <img loading="lazy" src="img2.webp" alt="Coach y Alumna" style="width:100%; height: 160px; object-fit: cover; object-position: top; border-radius:12px;">
+            <img loading="lazy" src="img3.webp" alt="Coach Luca" style="width:100%; height: 160px; object-fit: cover; object-position: top; border-radius:12px;">
         </div>
         
         <div style="border: 1px solid #E2E8F0; padding:15px; border-radius:12px; margin-bottom:20px;">
@@ -524,20 +524,20 @@
         
         <div class="age-grid">
             <div class="age-card" onclick="setAge('18 - 29'); nextStep(12)">
-                <img loading="lazy" src="age_20s.jpg" alt="18 - 29" style="width: 100%; height: 150px; object-fit: cover;">
-                <p>18 - 29</p>
+                <img loading="lazy" src="age_20s.jpg" alt="18 - 29" style="width: 100%; height: 110px; object-fit: cover; object-position: top;">
+                <p style="margin: 8px 0;">18 - 29</p>
             </div>
             <div class="age-card" onclick="setAge('30 - 39'); nextStep(12)">
-                <img loading="lazy" src="age_30s.jpg" alt="30 - 39" style="width: 100%; height: 150px; object-fit: cover;">
-                <p>30 - 39</p>
+                <img loading="lazy" src="age_30s.jpg" alt="30 - 39" style="width: 100%; height: 110px; object-fit: cover; object-position: top;">
+                <p style="margin: 8px 0;">30 - 39</p>
             </div>
             <div class="age-card" onclick="setAge('40 - 49'); nextStep(12)">
-                <img loading="lazy" src="age_40s.jpg" alt="40 - 49" style="width: 100%; height: 150px; object-fit: cover;">
-                <p>40 - 49</p>
+                <img loading="lazy" src="age_40s.jpg" alt="40 - 49" style="width: 100%; height: 110px; object-fit: cover; object-position: top;">
+                <p style="margin: 8px 0;">40 - 49</p>
             </div>
             <div class="age-card" onclick="setAge('50+'); nextStep(12)">
-                <img loading="lazy" src="age_50s.jpg" alt="50+" style="width: 100%; height: 150px; object-fit: cover;">
-                <p>50+</p>
+                <img loading="lazy" src="age_50s.jpg" alt="50+" style="width: 100%; height: 110px; object-fit: cover; object-position: top;">
+                <p style="margin: 8px 0;">50+</p>
             </div>
         </div>
     </div>
@@ -707,8 +707,8 @@
             <p>Tu video ha comenzado, míralo y desbloquea el protocolo.</p>
         </div>
         
-        <div class="video-container">
-            <vturb-smartplayer id="vid-6aa0aa5d09a9d8201dda64a9" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"><div class="vturb-player-placeholder" style="position: relative; width: 100%; padding: 125% 0 0; z-index: 0; background-color: black;"></div></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/8e4a5189-4af1-4482-a878-6b043ce3dc5b/players/6aa0aa5d09a9d8201dda64a9/v4/player.js", s.async=!0,document.head.appendChild(s); </script>
+        <div class="video-container" id="vsl-container">
+            <!-- VSL será carregada dinamicamente aqui -->
         </div>
     </div>
 
@@ -759,6 +759,17 @@
         }
     }
 
+    function loadVSL() {
+        const container = document.getElementById('vsl-container');
+        if(container.innerHTML.trim() === '<!-- VSL será carregada dinamicamente aqui -->') {
+            container.innerHTML = `<vturb-smartplayer id="vid-6aa0aa5d09a9d8201dda64a9" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"><div class="vturb-player-placeholder" style="position: relative; width: 100%; padding: 125% 0 0; z-index: 0; background-color: black;"></div></vturb-smartplayer>`;
+            const s = document.createElement('script');
+            s.src = "https://scripts.converteai.net/8e4a5189-4af1-4482-a878-6b043ce3dc5b/players/6aa0aa5d09a9d8201dda64a9/v4/player.js";
+            s.async = true;
+            document.head.appendChild(s);
+        }
+    }
+
     function startFinalLoading() {
         nextStep(18);
         const bar = document.getElementById('final-progress');
@@ -769,6 +780,7 @@
         setTimeout(() => { bar.style.width = '100%'; document.getElementById('check-4').className = 'done'; document.getElementById('check-4').innerHTML = '🟢 ¡CASI LISTO!'; }, 5000);
         
         setTimeout(() => {
+            loadVSL();
             nextStep(19);
         }, 5500);
     }
